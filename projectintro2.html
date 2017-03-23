@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="qinlicang's project">
+    <meta name="author" content="qinlicang">
+
+    <title>秦立仓项目介绍</title>
+
+    <!-- Bootstrap & Snippet plugin core CSS -->
+    <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .imgScreenShots {
+            vertical-align: middle;
+            width: 90%;
+        }
+
+        p {
+            text-indent: 2em
+        }
+
+        li {
+            font-size: 16px;
+        }
+
+        body {
+            padding: 50px;
+            color: #5a5a5a;
+        }
+
+        .modal-header {
+            padding: 0px;
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+<div id="navbar" class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+            <button class="navbar-toggle" id="btncollapse" type="button" data-toggle="collapse"
+                    data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+            <a class="navbar-brand" href="#">项目介绍</a>
+        </div>
+        <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li class="menuItem active"><a href="#factory">工厂生产工具</a></li>
+                <li class="menuItem"><a href="#fingerpay">指纹支付规范</a></li>
+                <li class="menuItem"><a href="#finger">指纹框架</a></li>
+                <li class="menuItem"><a href="#oma">OpenMobileAPI</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- START THE CONTENT -->
+<div id='contents'>
+    <div id="factory" class="row featurette">
+        <br/><br/><!--为了选择锚点后能显示锚点的标题-->
+        <h2 class="featurette-heading">工厂生产工具</h2>
+        <h3 class="soft-intro">软件介绍</h3>
+        <div class="row">
+            <p class="lead">
+                随着TEE、IFAA、SOTER等要求必须在工厂中预置密钥，我们作为TEE提供商，必须在工厂中提供相关生产工具预置密钥及相关初始化操作，但在工厂中的环境千差万别，如何设计一个灵活的框架，来适应不同的工厂环境，为此我设计了一套框架，来完成不同环境下的适配。
+            </p>
+        </div><!-- /.row -->
+
+        <h3 class="soft-screenshots">系统框架</h3>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/tool.jpg"></div>
+        </div>
+    </div>
+
+    <div id="fingerpay" class="row featurette">
+        <br/><br/>
+        <h2 class="featurette-heading">指纹支付规范</h2>
+        <div class="row">
+            <p class="lead">
+                随着指纹在android手机上的普及，人们越来越体会到指纹的便利，但如何将指纹识别应用于移动支付中，并能够充分的保证在支付过程中的安全，并没有统一的规范来完成。针对这一现状，FIDO、微信、支付宝都分别制定了各自的规范，和上下游公司充分合作，希望将其推广为一个通用规范，我们作为TEE厂家、为手机厂商实现相关规范。我在进行相关规范实现是也深入了解到了各个规范的差别；并深入学习了Android
+                Framework、Sepolicy、编译、Native Service、Android安全等技术。
+            </p>
+        </div><!-- /.row -->
+        <h3 class="soft-screenshots">规范对比</h3>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/ifaa.jpg"></div>
+        </div>
+    </div> <!-- END FEATURES -->
+
+    <div id="finger" class="row featurette">
+        <br/><br/>
+        <div class="row">
+            <h2 class="featurette-heading">指纹框架</h2>
+            <h3 class="soft-intro">软件介绍</h3>
+            <p class="lead">
+                随着Apple在iPhone手机中使用指纹识别功能，指纹模块在Android手机中也越来越多的集成，应客户要求，我们从Android5.0开始进行指纹模块集成及相关框架的开发工作，到Android6.0使用Google标准的框架，对指纹框架有了更深的理解。
+                为了更好的保护客户的指纹模板，Google CDD测试要求中说明必须使用TEE或硬件存储实现，我们将指纹模板信息保存在TEE中，高通平台采用QSEE，MTK和展讯平台采用我们自己的TEE。
+            </p>
+        </div><!-- /.row -->
+        <h3 class="soft-screenshots">系统框架</h3>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/finger1.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/finger2.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/finger3.jpg"></div>
+        </div>
+    </div> <!-- END FEATURES -->
+
+    <div id="oma" class="row featurette">
+        <br/><br/>
+        <div class="row">
+            <h2 class="featurette-heading">OpenMobileAPI</h2>
+            <h3 class="soft-intro">软件介绍</h3>
+            <p class="lead">
+                Open Mobile API框架是基于SIMalliance组织的Open Mobile API规范，在Android平台上实现的一套使android应用能够和SIM卡、SD卡等安全模块通信的框架。
+            </p>
+        </div><!-- /.row -->
+        <h3 class="soft-screenshots">系统框架</h3>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/oma1.jpg"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><img class="imgScreenShots" src="images2/oma-ac.jpg"></div>
+        </div>
+
+    </div> <!-- END FEATURES -->
+
+
+</div> <!-- END CONTENT -->
+
+<!--放大图的imgModal-->
+<div class="modal fade bs-example-modal-lg text-center" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style='padding-top:80px;vertical-align:middle;'>
+        <!--
+         style="text-align:center;"
+        style="display: inline-block; width: 100%;"
+            <div class="modal-header" style="background: #204d74">
+                <a class="close" data-dismiss="modal">X</a>
+                <h5>显示大图</h5>
+            </div>
+            <div class="modal-content">
+                <div id="img_show">
+                </div>
+            </div>
+        </div>
+        -->
+
+        <div id="img_show">
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap & Plugins core JavaScript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="jquery-3.1.1/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+    //点击图片显示大图
+    $(".imgScreenShots").click(function() {
+        var imgsrc = $(".imgScreenShots").attr("src");
+        alert(imgsrc);
+        var imghtml = "<img id='imgbig' style='width: 90%;text-align:center;vertical-align:middle;' src='" + imgsrc + "' onclick='closedialog()' />";
+        alert(imghtml);
+        $("#img_show").html(imghtml);
+        $("#imgModal").modal();
+    });
+
+    //点击大图关闭
+    function closedialog() {
+        $("#imgModal").modal('hide');
+    }
+
+    //当点击右上角菜单后，显示列表，选择列表后，应该隐藏列表
+    $(".menuItem,.navbar-toggle").click(function (e) {
+        //$(".collapse").hide()
+        $('.collapse').toggle(500)
+    });
+</script>
+</body>
+</html>
