@@ -5,7 +5,7 @@
     <meta name="description" content="qinlicang's project">
     <meta name="author" content="qinlicang">
 
-    <title>秦立仓项目介绍</title>
+    <title>秦立仓项目介绍2</title>
 
     <!-- Bootstrap & Snippet plugin core CSS -->
     <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,6 @@
     <div id="factory" class="row featurette">
         <br/><br/><!--为了选择锚点后能显示锚点的标题-->
         <h2 class="featurette-heading">工厂生产工具</h2>
-        <h3 class="soft-intro">软件介绍</h3>
         <div class="row">
             <p class="lead">
                 随着TEE、IFAA、SOTER等要求必须在工厂中预置密钥，我们作为TEE提供商，必须在工厂中提供相关生产工具预置密钥及相关初始化操作，但在工厂中的环境千差万别，如何设计一个灵活的框架，来适应不同的工厂环境，为此我设计了一套框架，来完成不同环境下的适配。
@@ -76,6 +75,7 @@
 
         <h3 class="soft-screenshots">系统框架</h3>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/tool.jpg"></div>
         </div>
     </div>
@@ -91,6 +91,7 @@
         </div><!-- /.row -->
         <h3 class="soft-screenshots">规范对比</h3>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/ifaa.jpg"></div>
         </div>
     </div> <!-- END FEATURES -->
@@ -99,7 +100,6 @@
         <br/><br/>
         <div class="row">
             <h2 class="featurette-heading">指纹框架</h2>
-            <h3 class="soft-intro">软件介绍</h3>
             <p class="lead">
                 随着Apple在iPhone手机中使用指纹识别功能，指纹模块在Android手机中也越来越多的集成，应客户要求，我们从Android5.0开始进行指纹模块集成及相关框架的开发工作，到Android6.0使用Google标准的框架，对指纹框架有了更深的理解。
                 为了更好的保护客户的指纹模板，Google CDD测试要求中说明必须使用TEE或硬件存储实现，我们将指纹模板信息保存在TEE中，高通平台采用QSEE，MTK和展讯平台采用我们自己的TEE。
@@ -107,12 +107,15 @@
         </div><!-- /.row -->
         <h3 class="soft-screenshots">系统框架</h3>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/finger1.jpg"></div>
         </div>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/finger2.jpg"></div>
         </div>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/finger3.jpg"></div>
         </div>
     </div> <!-- END FEATURES -->
@@ -121,16 +124,17 @@
         <br/><br/>
         <div class="row">
             <h2 class="featurette-heading">OpenMobileAPI</h2>
-            <h3 class="soft-intro">软件介绍</h3>
             <p class="lead">
                 Open Mobile API框架是基于SIMalliance组织的Open Mobile API规范，在Android平台上实现的一套使android应用能够和SIM卡、SD卡等安全模块通信的框架。
             </p>
         </div><!-- /.row -->
         <h3 class="soft-screenshots">系统框架</h3>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/oma1.jpg"></div>
         </div>
         <div class="row">
+            <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/oma-ac.jpg"></div>
         </div>
 
@@ -169,12 +173,13 @@
 <script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 
+/*
     //点击图片显示大图
     $(".imgScreenShots").click(function() {
         var imgsrc = $(".imgScreenShots").attr("src");
-        alert(imgsrc);
+        //alert(imgsrc);
         var imghtml = "<img id='imgbig' style='width: 90%;text-align:center;vertical-align:middle;' src='" + imgsrc + "' onclick='closedialog()' />";
-        alert(imghtml);
+        //alert(imghtml);
         $("#img_show").html(imghtml);
         $("#imgModal").modal();
     });
@@ -183,6 +188,7 @@
     function closedialog() {
         $("#imgModal").modal('hide');
     }
+*/
 
     //当点击右上角菜单后，显示列表，选择列表后，应该隐藏列表
     $(".menuItem,.navbar-toggle").click(function (e) {
