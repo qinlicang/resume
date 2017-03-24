@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="950776fc-e77a-421b-ba13-aa6af5c492b8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectintro.html" afterPath="$PROJECT_DIR$/projectintro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectintro2.html" afterPath="$PROJECT_DIR$/projectintro2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.html" afterPath="$PROJECT_DIR$/resume.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="362">
+              <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="96" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -36,22 +48,22 @@
       <file leaf-file-name="projectintro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projectintro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="218" column="26" lean-forward="false" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="250" column="35" lean-forward="false" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectintro2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projectintro2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projectintro2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="662">
+              <caret line="71" column="106" lean-forward="false" selection-start-line="71" selection-start-column="106" selection-end-line="71" selection-end-column="106" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <marker date="1490263274616" expanded="true" signature="6500:6511" ph="..." />
-                <marker date="1490263274616" expanded="true" signature="6500:6551" ph="..." />
+                <marker date="1490317513129" expanded="true" signature="6497:6508" ph="..." />
+                <marker date="1490317513129" expanded="true" signature="6497:6548" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,6 +78,7 @@
       <find>.css</find>
       <find>tool</find>
       <find>tool.jpg</find>
+      <find>介绍</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-3</replace>
@@ -77,9 +90,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/projectintro2.html" />
         <option value="$PROJECT_DIR$/projectintro.html" />
         <option value="$PROJECT_DIR$/resume.html" />
-        <option value="$PROJECT_DIR$/projectintro2.html" />
       </list>
     </option>
   </component>
@@ -216,12 +229,12 @@
       <updated>1489460257743</updated>
       <workItem from="1489460259051" duration="11696000" />
       <workItem from="1489565039799" duration="4465000" />
-      <workItem from="1490249215579" duration="10333000" />
+      <workItem from="1490249215579" duration="13711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26494000" />
+    <option name="totallyTimeSpent" value="29872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -288,14 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -304,23 +309,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="96" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projectintro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="218" column="26" lean-forward="false" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="250" column="35" lean-forward="false" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectintro2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="662">
+          <caret line="71" column="106" lean-forward="false" selection-start-line="71" selection-start-column="106" selection-end-line="71" selection-end-column="106" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <marker date="1490263274616" expanded="true" signature="6500:6511" ph="..." />
-            <marker date="1490263274616" expanded="true" signature="6500:6551" ph="..." />
+            <marker date="1490317513129" expanded="true" signature="6497:6508" ph="..." />
+            <marker date="1490317513129" expanded="true" signature="6497:6548" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
