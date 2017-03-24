@@ -114,10 +114,10 @@
             <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/finger2.jpg"></div>
         </div>
-        <div class="row">
+<!--        <div class="row">
             <br/>
             <div class="col-md-4"><img class="imgScreenShots" src="images2/finger3.jpg"></div>
-        </div>
+        </div>-->
     </div> <!-- END FEATURES -->
 
     <div id="oma" class="row featurette">
@@ -145,9 +145,10 @@
 
 <!--放大图的imgModal-->
 <div class="modal fade bs-example-modal-lg text-center" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-lg" style='padding-top:80px;vertical-align:middle;'>
+    <div class="modal-dialog modal-lg" style='padding-top: 80px;vertical-align:middle;'>
         <!--
-         style="text-align:center;"
+        style='padding-top: 80px;vertical-align:middle;'
+        style='position:absolute;left:50%;top:50%;margin-left:-213px;margin-top:-140px;vertical-align:middle;'
         style="display: inline-block; width: 100%;"
             <div class="modal-header" style="background: #204d74">
                 <a class="close" data-dismiss="modal">X</a>
@@ -173,22 +174,21 @@
 <script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 
-/*
-    //点击图片显示大图
-    $(".imgScreenShots").click(function() {
-        var imgsrc = $(".imgScreenShots").attr("src");
+/*    //点击图片显示大图
+    $(".imgScreenShots").click(function () {
+        var imgsrc = $(this).attr("src");
         //alert(imgsrc);
+
         var imghtml = "<img id='imgbig' style='width: 90%;text-align:center;vertical-align:middle;' src='" + imgsrc + "' onclick='closedialog()' />";
         //alert(imghtml);
         $("#img_show").html(imghtml);
         $("#imgModal").modal();
-    });
+    });*/
 
     //点击大图关闭
     function closedialog() {
         $("#imgModal").modal('hide');
     }
-*/
 
     //当点击右上角菜单后，显示列表，选择列表后，应该隐藏列表
     $(".menuItem,.navbar-toggle").click(function (e) {
